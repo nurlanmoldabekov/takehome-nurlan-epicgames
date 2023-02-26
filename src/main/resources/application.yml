@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: "takehome-nurlan"
+  security:
+    user:
+      name: user
+      password: password
+
+application:
+  graphql:
+    countryUrl: "https://countries.trevorblades.com/graphql"
+server:
+  error:
+    include-message: always
+logging:
+  level:
+    root: warn
